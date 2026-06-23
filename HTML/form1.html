@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <fieldset>
+        <table>
+            <legend>Enter Your Details</legend>
+            <tr>
+                <td>
+                    <label for="name">Username</label>
+                </td>
+                <td>
+                    <input type="text" required id="name" placeholder="username" name="username">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="pass">password</label>
+                </td>
+                <td>
+                    <input type="password" name="password" id="pass" required placeholder="password">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="phn">phone number</label>
+                </td>
+                <td>
+                    <input type="tel" required placeholder="number" name="phnnumber">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="email">Email</label>
+                </td>
+                <td>
+                    <input type="email" placeholder="emial" required name="email">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="address">Address</label>
+                </td>
+                <td>
+                    <textarea name="address" id="address">
+
+                    </textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="place">Places</label>
+                </td>
+                <td>
+                    <input type="text" id="place" list="places">
+                    <datalist id="places">
+                        <option value="mysore">mysore</option>
+                        <option value="bengaluru">bengaluru</option>
+                        <option value="chickmanglore">chickmanglore</option>
+                        <option value="tumkur">tumkur</option>
+                        <option value="kodagu">kodagu</option>
+                        <option value="manglore">manglore</option>
+                    </datalist>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="gender">Gender</label>
+                </td>
+                <td>
+                    <input type="radio" value="male" required name="gender" id="gender">Male
+                    <input type="radio" value="female" required name="gender" id="gender">Female
+                    <input type="radio" value="others" required name="gender" id="gender">others
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="col">Colors</label>
+                </td>
+                <td>
+                   <select name="color" id="col" required>
+                    <option value="red">red</option>
+                    <option value="Blue">Blue</option>
+                    <option value="Green">Green</option>
+                   </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="sports">sports</label>
+                </td>
+                <td>
+                    <input type="checkbox" name="sports" value="cricket" id="sports">Cricket
+                    <input type="checkbox" name="sports" value="football" id="sports">football
+                    <input type="checkbox" name="sports" value="hockey" id="sports">hockey
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="dob">Dob</label>
+                </td>
+                <td>
+                    <input type="date" id="dob">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="img">Upload image</label>
+                </td>
+                <td>
+                    <input type="image" src="/Hacker.jpg" height="50" width="100" id="img">
+
+                </td>
+                
+            </tr>
+            <tr>
+                <td>
+                    <label for="file">Upload file</label>
+                </td>
+                <td>
+                    <input type="file" name="file" id="file" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="range">Select range</label>
+                </td>
+                <td>
+                    <input type="range" name="range" id="range">
+                </td>
+            </tr>
+            <tr>
+               <td><button>login</button></td>
+               <td>
+                <input type="reset" >
+               </td>
+            </tr>
+
+        </table>
+    </fieldset>
+    
+</body>
+</html>
