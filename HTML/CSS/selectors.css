@@ -1,0 +1,39 @@
+#demo{
+    color: burlywood;
+    background-color: aquamarine;
+}
+
+#demo1{
+    background-color:blueviolet;
+    color: aqua;
+}
+
+.test{
+    color: brown;
+    background-color: aqua;
+}
+
+.test2{
+    color: white;
+    background-color: black;
+}
+
+article{
+    color: red;
+    background-color: coral;
+}
+
+section{
+
+    color: green;
+    background-color: chocolate;
+}
+
+div,i{
+    color: purple;
+    background-color: green;
+}
+
+*{
+    background-color: yellow;
+}
